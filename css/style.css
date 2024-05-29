@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FE5D37;
+    --primary: #4cd5f8;
     --light: #FFF5F3;
     --dark: #103741;
 }
@@ -32,7 +32,7 @@
 /*** Button ***/
 .btn {
     font-weight: 500;
-    transition: .5s;
+    transition: .3s;
 }
 
 .btn.btn-primary {
@@ -81,7 +81,7 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'poppins', cursive;
     font-weight: 700;
 }
 
@@ -93,7 +93,7 @@ h6,
 }
 
 .font-secondary {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'poppins', cursive;
 }
 
 
