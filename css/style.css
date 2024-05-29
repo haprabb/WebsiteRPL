@@ -172,7 +172,6 @@ h6,
     height: 10px;
     top: 0;
     left: 0;
-    background: url(../img/bg-header-top.png) center center repeat-x;
     z-index: 1;
 }
 
@@ -181,7 +180,6 @@ h6,
     height: 19px;
     top: auto;
     bottom: 0;
-    background: url(../img/bg-header-bottom.png) center center repeat-x;
 }
 
 @media (max-width: 768px) {
