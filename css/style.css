@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #4cd5f8;
-    --light: #FFF5F3;
+    --light: #ffffff;
     --dark: #103741;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .btn.btn-primary {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-square {
@@ -137,7 +137,7 @@ h6,
 
     .navbar .navbar-nav {
         margin-top: 15px;
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #0e5c68;
     }
 }
 
@@ -238,7 +238,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/bg1rpl.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -266,7 +266,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .9);
+    background: #ffffffe6;
     transition: .5s;
     z-index: 1;
 }
