@@ -57,35 +57,44 @@ if(isset($_POST['logout'])){
 
     <body>
 
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-    <a href="index.html" class="navbar-brand">
-        <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>Kider</h1>
-    </a>
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav mx-auto">
-            <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="about.html" class="nav-item nav-link ">About Us</a>
-            <a href="Schedule.html" class="nav-item nav-link ">Schedule</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
-                <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
-                    <a href="classesDropdown.html" class="dropdown-item">Classes</a>
-                    <a href="testimonialDropdown.html" class="dropdown-item">Testimonial</a>
-                    <a href="login.php" class="dropdown-item">Login Admin</a>
+    <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>Kider</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About Us</a>
+                    <a href="Schedule.html" class="nav-item nav-link ">Schedule</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="classesDropdown.html" class="dropdown-item">Classes</a>
+                            <a href="testimonialDropdown.html" class="dropdown-item">Testimonial</a>
+                            <a href="login.php" class="dropdown-item">Login Admin</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
+                <!-- Tambahkan form logout di sini -->
+                <form method="post">
+                    <button type="submit" name="logout" class="btn btn-danger rounded-pill px-3">Logout <i class="fa fa-arrow-right ms-3"></i></button>
+                </form>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-        </div>
-        <!-- Tambahkan form logout di sini -->
-        <form method="post">
-            <button type="submit" name="logout" class="btn btn-danger rounded-pill px-3">Logout <i class="fa fa-arrow-right ms-3"></i></button>
-        </form>
-    </div>
-</nav>
+        </nav>
+    <!-- Navbar End -->
 
+        <div class="container-xxl py-5 page-header position-relative mb-5">
+            <div class="container py-5">
+                <h1 class="display-2 text-white animated slideInDown mb-4">Classes</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                </nav>
+            </div>
+        </div>
 
         <div class="container my-4">
             <h1>Selamat datang di Halaman Admin</h1>
