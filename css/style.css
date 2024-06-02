@@ -356,8 +356,8 @@ h6,
 /*** Team ***/
 .team-item .team-text {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300x;
     bottom: 0;
     right: 0;
     display: flex;
@@ -427,9 +427,9 @@ h6,
 
 /*** Footer ***/
 .footer .btn.btn-social {
-    margin-right: 5px;
-    width: 45px;
-    height: 45px;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -446,8 +446,8 @@ h6,
 
 .footer .btn.btn-link {
     display: block;
-    margin-bottom: 5px;
-    padding: 0;
+    margin-bottom: 10px;
+    padding: 10px;
     text-align: left;
     font-size: 16px;
     font-weight: normal;
