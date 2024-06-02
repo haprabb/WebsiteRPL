@@ -43,7 +43,7 @@ if (isset($_POST["submit"])) {
 
 <body>
    <nav class="navbar navbar-light justify-content-center fs-3 mb-5" style="background-color: #0dcaf0;">
-      Halaman Admin
+   Sekolah Musik Simfonia-Admin
    </nav>
 
    <div class="container">
