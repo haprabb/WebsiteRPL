@@ -13,7 +13,7 @@ include "db_conn.php";
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/icon.jpg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -141,10 +141,9 @@ include "db_conn.php";
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 851 0178 0907</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>simfonia@email.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/smsimfonia"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/smsimfonia" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://web.facebook.com/smsimfonia" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@smsimfonia" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9">
@@ -182,8 +181,8 @@ include "db_conn.php";
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">2024 Sekolah Musik Simfonia</a> All Right Reserved.  
-							Designed By <a class="border-bottom" >Cooking Coding</a>
+                            &copy; <a href="#">2024 Sekolah Musik Simfonia</a> All Right Reserved.  
+							Designed By <a >Cooking Coding</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
