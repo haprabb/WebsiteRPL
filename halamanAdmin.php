@@ -28,6 +28,7 @@ include "db_conn.php";
 <head>
     <meta charset="utf-8">
     <title>Sekolah Musik Simfonia</title>
+    <link href="img/icon.jpg" rel="icon">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
