@@ -78,7 +78,8 @@ if(isset($_POST['login'])){
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 <body>
-<div class="container my-4">    
+<div class="container my-4">
+<a href="index.html" class="btn btn-info" style="position: absolute; top: 10px; left: 10px;">Kembali</a>    
     <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
         <div class="panel panel-info" >
             <div class="panel-heading">
