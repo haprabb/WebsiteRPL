@@ -51,7 +51,7 @@ include "db_conn.php";
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
             <a href="index.html" class="navbar-brand">
-                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>Kider</h1>
+                <h1 class="m-0 text-primary"></i>Simfonia</h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -131,9 +131,6 @@ include "db_conn.php";
             </table>
         </div>
 
-      
-
-
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
@@ -142,7 +139,7 @@ include "db_conn.php";
                         <h3 class="text-white mb-4">Get In Touch</h3>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Perumahan Gedangan Sektor 10, Jl. Bima Sakti No.2, RT.04/RW.06, Dusun 1, Gedangan, Kec. Grogol, Sukoharjo, Jawa Tengah, Indonesia 57552</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 851 0178 0907</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>simfonia@email.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/smsimfonia"><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -172,10 +169,10 @@ include "db_conn.php";
                                 <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
                             </div>
                             <div class="col-3">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-7.jpg" alt="">
                             </div>
                             <div class="col-3">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-8.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -185,10 +182,8 @@ include "db_conn.php";
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            &copy; <a class="border-bottom" href="#">2024 Sekolah Musik Simfonia</a> All Right Reserved.  
+							Designed By <a class="border-bottom" >Cooking Coding</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
@@ -203,7 +198,6 @@ include "db_conn.php";
             </div>
         </div>
         <!-- Footer End -->
-
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
