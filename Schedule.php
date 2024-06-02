@@ -60,7 +60,7 @@ include "db_conn.php";
                 <div class="navbar-nav mx-auto">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="Schedule.html" class="nav-item nav-link active">Schedule</a>
+                    <a href="schedule.php" class="nav-item nav-link active">Schedule</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
                         <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
