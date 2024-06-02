@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FE5D37;
-    --light: #FFF5F3;
+    --primary: #4cd5f8;
+    --light: #ffffff;
     --dark: #103741;
 }
 
@@ -32,11 +32,11 @@
 /*** Button ***/
 .btn {
     font-weight: 500;
-    transition: .5s;
+    transition: .3s;
 }
 
 .btn.btn-primary {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-square {
@@ -81,7 +81,7 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'poppins', cursive;
     font-weight: 700;
 }
 
@@ -93,7 +93,7 @@ h6,
 }
 
 .font-secondary {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'poppins', cursive;
 }
 
 
@@ -137,7 +137,7 @@ h6,
 
     .navbar .navbar-nav {
         margin-top: 15px;
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #0e5c68;
     }
 }
 
@@ -172,7 +172,6 @@ h6,
     height: 10px;
     top: 0;
     left: 0;
-    background: url(../img/bg-header-top.png) center center repeat-x;
     z-index: 1;
 }
 
@@ -181,7 +180,6 @@ h6,
     height: 19px;
     top: auto;
     bottom: 0;
-    background: url(../img/bg-header-bottom.png) center center repeat-x;
 }
 
 @media (max-width: 768px) {
@@ -240,7 +238,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/bg1rpl.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -268,7 +266,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .9);
+    background: #ffffffe6;
     transition: .5s;
     z-index: 1;
 }
