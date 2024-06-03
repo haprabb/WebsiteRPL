@@ -84,7 +84,6 @@ include "db_conn.php";
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
                         <li class="breadcrumb-item text-white active" aria-current="page">Schedule</li>
                     </ol>
                 </nav>
@@ -184,13 +183,7 @@ include "db_conn.php";
                             &copy; <a href="#">2024 Sekolah Musik Simfonia</a> All Right Reserved.  
 							Designed By <a >Cooking Coding</a>
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
+                        <div class="col-md-8 text-center text-md-end">
                         </div>
                     </div>
                 </div>
