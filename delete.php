@@ -9,7 +9,7 @@ if (isset($_GET["nama"])) {
   $result = mysqli_query($conn, $sql);
 
   if ($result) {
-    header("Location: index.php?msg=Data deleted successfully");
+    header("Location: halamanAdmin.php?msg=Data deleted successfully");
   } else {
     echo "Failed: " . mysqli_error($conn);
   }
