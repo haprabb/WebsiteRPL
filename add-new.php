@@ -12,7 +12,7 @@ if (isset($_POST["submit"])) {
    $result = mysqli_query($conn, $sql);
 
    if ($result) {
-      header("Location: index.php?msg=New record created successfully");
+      header("Location: halamanAdmin.php?msg=New record created successfully");
    } else {
       echo "Failed: " . mysqli_error($conn);
    }
